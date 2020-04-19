@@ -1,0 +1,9 @@
+[Core]
+Name = w3
+Module = w3
+
+[Documentation]
+Author = Yair Treister
+Version = 0.1
+Website = foo
+Description = w3

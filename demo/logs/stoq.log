@@ -1,0 +1,141 @@
+2020-04-19 19:35:52 DEBUG stoq:core.py:_init_logger:1095: Writing logs to /home/yair.treister/github/ytreister/stoq/demonstrate_worker_bug/logs/stoq.log
+2020-04-19 19:35:52 DEBUG stoq:core.py:scan:516: Content received (3 bytes): PayloadMeta: null, RequestMeta: null
+2020-04-19 19:35:52 DEBUG stoq:core.py:scan_request:584: Request received: RequestMeta: {"archive_payloads": true, "source": null, "extra_data": {}}, start_dispatches: null
+2020-04-19 19:35:52 DEBUG stoq:core.py:scan_request:599: Beginning worker round 1
+2020-04-19 19:35:52 DEBUG stoq:core.py:_execute_scan_round:729: Starting scan of 3 tasks, deferring 0 to future rounds
+2020-04-19 19:35:52 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 0af17082-8b9d-4899-a25a-1d8e220cd06d with WorkerPlugin w1
+2020-04-19 19:35:52 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 0af17082-8b9d-4899-a25a-1d8e220cd06d with WorkerPlugin w1 0 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:35:52 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 0af17082-8b9d-4899-a25a-1d8e220cd06d with WorkerPlugin w2
+2020-04-19 19:35:52 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 0af17082-8b9d-4899-a25a-1d8e220cd06d with WorkerPlugin w2 0 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:35:52 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 0af17082-8b9d-4899-a25a-1d8e220cd06d with WorkerPlugin w3
+2020-04-19 19:35:52 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 0af17082-8b9d-4899-a25a-1d8e220cd06d with WorkerPlugin w3 0 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:35:52 DEBUG stoq:core.py:scan_request:599: Beginning worker round 2
+2020-04-19 19:35:52 DEBUG stoq:core.py:scan_request:603: No more plugins to run, completing scan
+2020-04-19 19:38:24 DEBUG stoq:core.py:_init_logger:1095: Writing logs to /home/yair.treister/github/ytreister/stoq/demonstrate_worker_bug/logs/stoq.log
+2020-04-19 19:38:24 DEBUG stoq:core.py:scan:516: Content received (3 bytes): PayloadMeta: null, RequestMeta: null
+2020-04-19 19:38:24 DEBUG stoq:core.py:scan_request:584: Request received: RequestMeta: {"archive_payloads": true, "source": null, "extra_data": {}}, start_dispatches: null
+2020-04-19 19:38:24 DEBUG stoq:core.py:scan_request:599: Beginning worker round 1
+2020-04-19 19:38:24 DEBUG stoq:core.py:_execute_scan_round:729: Starting scan of 3 tasks, deferring 0 to future rounds
+2020-04-19 19:38:24 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 7a157baa-e5ea-43a3-acc1-fd3bfbc1c418 with WorkerPlugin w2
+2020-04-19 19:38:24 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 7a157baa-e5ea-43a3-acc1-fd3bfbc1c418 with WorkerPlugin w2 3 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:38:24 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 7a157baa-e5ea-43a3-acc1-fd3bfbc1c418 with WorkerPlugin w1
+2020-04-19 19:38:24 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 7a157baa-e5ea-43a3-acc1-fd3bfbc1c418 with WorkerPlugin w1 3 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:38:24 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 7a157baa-e5ea-43a3-acc1-fd3bfbc1c418 with WorkerPlugin w3
+2020-04-19 19:38:24 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 7a157baa-e5ea-43a3-acc1-fd3bfbc1c418 with WorkerPlugin w3 3 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:38:24 DEBUG stoq:core.py:scan_request:599: Beginning worker round 2
+2020-04-19 19:38:24 DEBUG stoq:core.py:scan_request:603: No more plugins to run, completing scan
+2020-04-19 19:38:41 DEBUG stoq:core.py:_init_logger:1095: Writing logs to /home/yair.treister/github/ytreister/stoq/demonstrate_worker_bug/logs/stoq.log
+2020-04-19 19:38:41 DEBUG stoq:core.py:scan:516: Content received (3 bytes): PayloadMeta: null, RequestMeta: null
+2020-04-19 19:38:41 DEBUG stoq:core.py:scan_request:584: Request received: RequestMeta: {"archive_payloads": true, "source": null, "extra_data": {}}, start_dispatches: null
+2020-04-19 19:38:41 DEBUG stoq:core.py:scan_request:599: Beginning worker round 1
+2020-04-19 19:38:41 DEBUG stoq:core.py:_execute_scan_round:729: Starting scan of 3 tasks, deferring 0 to future rounds
+2020-04-19 19:38:41 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 6468ebbe-ab9f-45f1-852d-a8ad1c472642 with WorkerPlugin w1
+2020-04-19 19:38:41 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 6468ebbe-ab9f-45f1-852d-a8ad1c472642 with WorkerPlugin w1 3 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:38:41 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 6468ebbe-ab9f-45f1-852d-a8ad1c472642 with WorkerPlugin w3
+2020-04-19 19:38:41 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 6468ebbe-ab9f-45f1-852d-a8ad1c472642 with WorkerPlugin w3 3 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:38:41 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 6468ebbe-ab9f-45f1-852d-a8ad1c472642 with WorkerPlugin w2
+2020-04-19 19:38:41 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 6468ebbe-ab9f-45f1-852d-a8ad1c472642 with WorkerPlugin w2 3 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:38:41 DEBUG stoq:core.py:scan_request:599: Beginning worker round 2
+2020-04-19 19:38:41 DEBUG stoq:core.py:scan_request:603: No more plugins to run, completing scan
+2020-04-19 19:38:46 DEBUG stoq:core.py:_init_logger:1095: Writing logs to /home/yair.treister/github/ytreister/stoq/demonstrate_worker_bug/logs/stoq.log
+2020-04-19 19:38:46 DEBUG stoq:core.py:scan:516: Content received (3 bytes): PayloadMeta: null, RequestMeta: null
+2020-04-19 19:38:46 DEBUG stoq:core.py:scan_request:584: Request received: RequestMeta: {"archive_payloads": true, "source": null, "extra_data": {}}, start_dispatches: null
+2020-04-19 19:38:46 DEBUG stoq:core.py:scan_request:599: Beginning worker round 1
+2020-04-19 19:38:46 DEBUG stoq:core.py:_execute_scan_round:729: Starting scan of 3 tasks, deferring 0 to future rounds
+2020-04-19 19:38:46 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 27174b6f-821c-4cd4-a07f-1263e66e79a1 with WorkerPlugin w1
+2020-04-19 19:38:46 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 27174b6f-821c-4cd4-a07f-1263e66e79a1 with WorkerPlugin w1 3 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:38:46 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 27174b6f-821c-4cd4-a07f-1263e66e79a1 with WorkerPlugin w3
+2020-04-19 19:38:46 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 27174b6f-821c-4cd4-a07f-1263e66e79a1 with WorkerPlugin w3 3 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:38:46 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 27174b6f-821c-4cd4-a07f-1263e66e79a1 with WorkerPlugin w2
+2020-04-19 19:38:46 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 27174b6f-821c-4cd4-a07f-1263e66e79a1 with WorkerPlugin w2 3 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:38:46 DEBUG stoq:core.py:scan_request:599: Beginning worker round 2
+2020-04-19 19:38:46 DEBUG stoq:core.py:scan_request:603: No more plugins to run, completing scan
+2020-04-19 19:40:36 DEBUG stoq:core.py:_init_logger:1095: Writing logs to /home/yair.treister/github/ytreister/stoq/demonstrate_worker_bug/logs/stoq.log
+2020-04-19 19:40:36 DEBUG stoq:core.py:scan:516: Content received (3 bytes): PayloadMeta: null, RequestMeta: null
+2020-04-19 19:40:36 DEBUG stoq:core.py:scan_request:584: Request received: RequestMeta: {"archive_payloads": true, "source": null, "extra_data": {}}, start_dispatches: null
+2020-04-19 19:40:36 DEBUG stoq:core.py:scan_request:599: Beginning worker round 1
+2020-04-19 19:40:36 DEBUG stoq:core.py:_execute_scan_round:729: Starting scan of 3 tasks, deferring 0 to future rounds
+2020-04-19 19:40:36 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 039ecd06-b988-417c-860f-e4a79243e3d0 with WorkerPlugin w2
+2020-04-19 19:40:36 DEBUG stoq.w2:w2.py:scan:6: Starting w2
+2020-04-19 19:40:36 DEBUG stoq.w2:w2.py:scan:8: Ending w2
+2020-04-19 19:40:36 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 039ecd06-b988-417c-860f-e4a79243e3d0 with WorkerPlugin w2 3 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:40:36 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 039ecd06-b988-417c-860f-e4a79243e3d0 with WorkerPlugin w3
+2020-04-19 19:40:36 DEBUG stoq.w3:w3.py:scan:6: Starting w3
+2020-04-19 19:40:36 DEBUG stoq.w3:w3.py:scan:8: Ending w3
+2020-04-19 19:40:36 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 039ecd06-b988-417c-860f-e4a79243e3d0 with WorkerPlugin w3 3 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:40:36 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 039ecd06-b988-417c-860f-e4a79243e3d0 with WorkerPlugin w1
+2020-04-19 19:40:36 DEBUG stoq.w1:w1.py:scan:6: Starting w1
+2020-04-19 19:40:36 DEBUG stoq.w1:w1.py:scan:8: Ending w1
+2020-04-19 19:40:36 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 039ecd06-b988-417c-860f-e4a79243e3d0 with WorkerPlugin w1 3 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:40:36 DEBUG stoq:core.py:scan_request:599: Beginning worker round 2
+2020-04-19 19:40:36 DEBUG stoq:core.py:scan_request:603: No more plugins to run, completing scan
+2020-04-19 19:41:14 DEBUG stoq:core.py:_init_logger:1095: Writing logs to /home/yair.treister/github/ytreister/stoq/demonstrate_worker_bug/logs/stoq.log
+2020-04-19 19:41:14 DEBUG stoq:core.py:scan:516: Content received (3 bytes): PayloadMeta: null, RequestMeta: null
+2020-04-19 19:41:14 DEBUG stoq:core.py:scan_request:584: Request received: RequestMeta: {"archive_payloads": true, "source": null, "extra_data": {}}, start_dispatches: null
+2020-04-19 19:41:14 DEBUG stoq:core.py:scan_request:599: Beginning worker round 1
+2020-04-19 19:41:14 DEBUG stoq:core.py:_execute_scan_round:729: Starting scan of 3 tasks, deferring 0 to future rounds
+2020-04-19 19:41:14 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 6c8ad196-e863-4df0-b95d-c89807a5fd9c with WorkerPlugin w2
+2020-04-19 19:41:14 DEBUG stoq.w2:w2.py:scan:6: Starting w2
+2020-04-19 19:41:14 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 6c8ad196-e863-4df0-b95d-c89807a5fd9c with WorkerPlugin w1
+2020-04-19 19:41:14 DEBUG stoq.w1:w1.py:scan:6: Starting w1
+2020-04-19 19:41:14 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 6c8ad196-e863-4df0-b95d-c89807a5fd9c with WorkerPlugin w3
+2020-04-19 19:41:14 DEBUG stoq.w3:w3.py:scan:6: Starting w3
+2020-04-19 19:41:15 DEBUG stoq.w1:w1.py:scan:8: Ending w1
+2020-04-19 19:41:15 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 6c8ad196-e863-4df0-b95d-c89807a5fd9c with WorkerPlugin w1 3 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:41:16 DEBUG stoq.w2:w2.py:scan:8: Ending w2
+2020-04-19 19:41:16 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 6c8ad196-e863-4df0-b95d-c89807a5fd9c with WorkerPlugin w2 3 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:41:17 DEBUG stoq.w3:w3.py:scan:8: Ending w3
+2020-04-19 19:41:17 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 6c8ad196-e863-4df0-b95d-c89807a5fd9c with WorkerPlugin w3 3 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:41:17 DEBUG stoq:core.py:scan_request:599: Beginning worker round 2
+2020-04-19 19:41:17 DEBUG stoq:core.py:scan_request:603: No more plugins to run, completing scan
+2020-04-19 19:42:42 DEBUG stoq:core.py:_init_logger:1095: Writing logs to /home/yair.treister/github/ytreister/stoq/demonstrate_worker_bug/logs/stoq.log
+2020-04-19 19:42:42 DEBUG stoq:core.py:scan:516: Content received (3 bytes): PayloadMeta: null, RequestMeta: null
+2020-04-19 19:42:42 DEBUG stoq:core.py:scan_request:584: Request received: RequestMeta: {"archive_payloads": true, "source": null, "extra_data": {}}, start_dispatches: null
+2020-04-19 19:42:42 DEBUG stoq:core.py:scan_request:599: Beginning worker round 1
+2020-04-19 19:42:42 DEBUG stoq:core.py:_execute_scan_round:729: Starting scan of 3 tasks, deferring 0 to future rounds
+2020-04-19 19:42:42 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload b56ccd25-7c50-4c8b-8987-b19d3e82048e with WorkerPlugin w1
+2020-04-19 19:42:42 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload b56ccd25-7c50-4c8b-8987-b19d3e82048e with WorkerPlugin w2
+2020-04-19 19:42:42 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload b56ccd25-7c50-4c8b-8987-b19d3e82048e with WorkerPlugin w3
+2020-04-19 19:42:43 DEBUG stoq:core.py:_apply_worker:946: Completed scan of b56ccd25-7c50-4c8b-8987-b19d3e82048e with WorkerPlugin w1 0 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:42:44 DEBUG stoq:core.py:_apply_worker:946: Completed scan of b56ccd25-7c50-4c8b-8987-b19d3e82048e with WorkerPlugin w2 0 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:42:45 DEBUG stoq:core.py:_apply_worker:946: Completed scan of b56ccd25-7c50-4c8b-8987-b19d3e82048e with WorkerPlugin w3 0 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:42:45 DEBUG stoq:core.py:scan_request:599: Beginning worker round 2
+2020-04-19 19:42:45 DEBUG stoq:core.py:scan_request:603: No more plugins to run, completing scan
+2020-04-19 19:47:02 DEBUG stoq:core.py:_init_logger:1095: Writing logs to /home/yair.treister/github/ytreister/stoq/demonstrate_worker_bug/logs/stoq.log
+2020-04-19 19:47:02 DEBUG stoq:core.py:scan:516: Content received (3 bytes): PayloadMeta: null, RequestMeta: null
+2020-04-19 19:47:02 DEBUG stoq:core.py:scan_request:584: Request received: RequestMeta: {"archive_payloads": true, "source": null, "extra_data": {}}, start_dispatches: null
+2020-04-19 19:47:02 DEBUG stoq:core.py:scan_request:599: Beginning worker round 1
+2020-04-19 19:47:02 DEBUG stoq:core.py:_execute_scan_round:729: Starting scan of 3 tasks, deferring 0 to future rounds
+2020-04-19 19:47:02 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload e43f7c4f-9bd8-4d3d-803b-710cb6a9a30c with WorkerPlugin w2
+2020-04-19 19:47:04 DEBUG stoq:core.py:_apply_worker:946: Completed scan of e43f7c4f-9bd8-4d3d-803b-710cb6a9a30c with WorkerPlugin w2 0 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:47:04 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload e43f7c4f-9bd8-4d3d-803b-710cb6a9a30c with WorkerPlugin w1
+2020-04-19 19:47:05 DEBUG stoq:core.py:_apply_worker:946: Completed scan of e43f7c4f-9bd8-4d3d-803b-710cb6a9a30c with WorkerPlugin w1 0 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:47:05 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload e43f7c4f-9bd8-4d3d-803b-710cb6a9a30c with WorkerPlugin w3
+2020-04-19 19:47:08 DEBUG stoq:core.py:_apply_worker:946: Completed scan of e43f7c4f-9bd8-4d3d-803b-710cb6a9a30c with WorkerPlugin w3 0 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:47:08 DEBUG stoq:core.py:scan_request:599: Beginning worker round 2
+2020-04-19 19:47:08 DEBUG stoq:core.py:scan_request:603: No more plugins to run, completing scan
+2020-04-19 19:53:19 DEBUG stoq:core.py:_init_logger:1095: Writing logs to /home/yair.treister/github/ytreister/stoq/demonstrate_worker_bug/logs/stoq.log
+2020-04-19 19:53:19 DEBUG stoq:core.py:scan:516: Content received (7 bytes): PayloadMeta: null, RequestMeta: null
+2020-04-19 19:53:19 DEBUG stoq:core.py:scan_request:584: Request received: RequestMeta: {"archive_payloads": true, "source": null, "extra_data": {}}, start_dispatches: null
+2020-04-19 19:53:19 DEBUG stoq:core.py:scan_request:599: Beginning worker round 1
+2020-04-19 19:53:19 DEBUG stoq:core.py:_execute_scan_round:729: Starting scan of 3 tasks, deferring 0 to future rounds
+2020-04-19 19:53:19 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 896dda8f-d649-4823-b912-7788e85ae521 with WorkerPlugin w3
+2020-04-19 19:53:19 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 896dda8f-d649-4823-b912-7788e85ae521 with WorkerPlugin w1
+2020-04-19 19:53:19 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload 896dda8f-d649-4823-b912-7788e85ae521 with WorkerPlugin w2
+2020-04-19 19:53:20 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 896dda8f-d649-4823-b912-7788e85ae521 with WorkerPlugin w1 0 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:53:21 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 896dda8f-d649-4823-b912-7788e85ae521 with WorkerPlugin w2 0 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:53:22 DEBUG stoq:core.py:_apply_worker:946: Completed scan of 896dda8f-d649-4823-b912-7788e85ae521 with WorkerPlugin w3 0 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:53:22 DEBUG stoq:core.py:scan_request:599: Beginning worker round 2
+2020-04-19 19:53:22 DEBUG stoq:core.py:scan_request:603: No more plugins to run, completing scan
+2020-04-19 19:53:22 DEBUG stoq:core.py:scan:516: Content received (4 bytes): PayloadMeta: null, RequestMeta: null
+2020-04-19 19:53:22 DEBUG stoq:core.py:scan_request:584: Request received: RequestMeta: {"archive_payloads": true, "source": null, "extra_data": {}}, start_dispatches: null
+2020-04-19 19:53:22 DEBUG stoq:core.py:scan_request:599: Beginning worker round 1
+2020-04-19 19:53:22 DEBUG stoq:core.py:_execute_scan_round:729: Starting scan of 3 tasks, deferring 0 to future rounds
+2020-04-19 19:53:22 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload c9f7008b-1f2f-438a-bbb3-4f934ba3422c with WorkerPlugin w3
+2020-04-19 19:53:25 DEBUG stoq:core.py:_apply_worker:946: Completed scan of c9f7008b-1f2f-438a-bbb3-4f934ba3422c with WorkerPlugin w3 0 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:53:25 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload c9f7008b-1f2f-438a-bbb3-4f934ba3422c with WorkerPlugin w2
+2020-04-19 19:53:27 DEBUG stoq:core.py:_apply_worker:946: Completed scan of c9f7008b-1f2f-438a-bbb3-4f934ba3422c with WorkerPlugin w2 0 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:53:27 DEBUG stoq:core.py:_apply_worker:905: Scanning Payload c9f7008b-1f2f-438a-bbb3-4f934ba3422c with WorkerPlugin w1
+2020-04-19 19:53:28 DEBUG stoq:core.py:_apply_worker:946: Completed scan of c9f7008b-1f2f-438a-bbb3-4f934ba3422c with WorkerPlugin w1 0 result keys, 0 additional dispatches, and 0 extracted payloads
+2020-04-19 19:53:28 DEBUG stoq:core.py:scan_request:599: Beginning worker round 2
+2020-04-19 19:53:28 DEBUG stoq:core.py:scan_request:603: No more plugins to run, completing scan

@@ -1,0 +1,9 @@
+[Core]
+Name = w1
+Module = w1
+
+[Documentation]
+Author = Yair Treister
+Version = 0.1
+Website = foo
+Description = w1
